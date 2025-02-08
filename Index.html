@@ -1,0 +1,331 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gymflow254</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo"><img src="./assets/Logos/Gymflow254-logo.png" alt=""></div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#testimonials">About Us</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="auth-links">
+        <a href="#" class="login-btn">Login</a>
+        <a href="#" class="get-started-btn">Get Started</a>
+      </div>
+    </nav>
+  </header>
+  <main id="home" class="intro-section">
+    <div class="content">
+      <h1>Streamline Your Gym, <span class="highlight">Empower</span> Your Members</h1>
+      <p>
+        The all-in-one platform for gym management in Kenya. Track attendance,
+        manage subscriptions, and boost revenue with powerful analytics.
+      </p>
+      <div class="waitlist-container">
+        <form id="waitlistForm" class="waitlist-form">
+          <input type="email" placeholder="input email to" required>
+          <button type="submit" class="waitlist-btn">Get Early Access</button>
+        </form>
+        <p class="waitlist-message"></p>
+      </div>
+    </div>
+      <form id="waitlistForm" class="waitlist-form">
+        <!-- <input type="email" placeholder="Enter your email" required> -->
+        <!-- <button type="submit" class="waitlist-btn">Join Waitlist</button> -->
+      </form>
+      <p class="waitlist-message"></p>
+    </div>
+    
+    <div class="image-container">
+      <img src="./assets/img.png" alt="Dashboard Preview" class="responsive-image">
+    </div>
+  </main>
+
+  <section id= "features" class="features-section">
+    <h2>Powerful Features for Modern Gyms</h2>
+    <p>Everything you need to manage your gym efficiently and provide the best experience for your members</p>
+    <div class="features-container">
+      <div class="feature-card">
+        <div class="icon">
+          <img src="./assets/icons/div (2).png" alt="Biometric Access Icon">
+        </div>
+        <h3>Biometric Access</h3>
+        <p>Secure member check-in with fingerprint and facial recognition technology</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">
+          <img src="./assets/icons/div (1).png" alt="Revenue Analytics Icon">
+        </div>
+        <h3>Revenue Analytics</h3>
+        <p>Track your gym's performance with detailed financial insights and reports</p>
+      </div>
+      <div class="feature-card">
+        <div class="icon">
+          <img src="./assets/icons/div.png" alt="Member App Icon">
+        </div>
+        <h3>Member App</h3>
+        <p>Give your members a dedicated mobile app to track their fitness journey</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="testimonials">
+    <h2 class="testimonials__title">Trusted by Leading Gyms in Kenya</h2>
+    
+    <div class="testimonials__container">
+      <div class="testimonial__card">
+        <div class="testimonial__header">
+          <img src="./assets/img (1).png" alt="Gym owner profile" class="testimonial__avatar" />
+          <div class="testimonial__meta">
+            <h3 class="testimonial__name">James Mwangi</h3>
+            <p class="testimonial__role">Owner, FlexFit Gym Nairobi</p>
+          </div>
+        </div>
+        <blockquote class="testimonial__quote">
+          "GymFlow 254 has transformed how we manage our gym. The automated check-ins and subscription tracking have saved us countless hours."
+        </blockquote>
+      </div>
+  
+      <div class="testimonial__card">
+        <div class="testimonial__header">
+          <img src="./assets/img (2).png" alt="Gym member profile" class="testimonial__avatar" />
+          <div class="testimonial__meta">
+            <h3 class="testimonial__name">Sarah Odhiambo</h3>
+            <p class="testimonial__role">Member, PowerHouse Gym</p>
+          </div>
+        </div>
+        <blockquote class="testimonial__quote">
+          "The mobile app is fantastic! I can track my workouts, manage my subscription, and set fitness goals all in one place."
+        </blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing" class="pricing">
+    <div class="pricing__header">
+      <h2 class="pricing__title">Simple, Transparent Pricing</h2>
+      <p class="pricing__subtitle">Choose the plan that best fits your gym's needs</p>
+    </div>
+  
+    <div class="pricing__container">
+      <!-- Starter Plan -->
+      <div class="pricing__card">
+        <div class="pricing__card-header">
+          <h3 class="pricing__plan-name">Starter</h3>
+          <div class="pricing__price">
+            <span class="pricing__currency">Ksh</span>
+            <span class="pricing__amount">4,999</span>
+            <span class="pricing__period">/mo</span>
+          </div>
+        </div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Up to 100 members
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Basic analytics
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Member mobile app
+          </li>
+        </ul>
+        <a href="#" class="pricing__button pricing__button--outline">Get Started</a>
+      </div>
+  
+      <!-- Professional Plan -->
+      <div class="pricing__card pricing__card--popular">
+        <div class="pricing__popular-tag">Popular</div>
+        <div class="pricing__card-header">
+          <h3 class="pricing__plan-name">Professional</h3>
+          <div class="pricing__price">
+            <span class="pricing__currency">Ksh</span>
+            <span class="pricing__amount">9,999</span>
+            <span class="pricing__period">/mo</span>
+          </div>
+        </div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Up to 500 members
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Advanced analytics
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Biometric access
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Priority support
+          </li>
+        </ul>
+        <a href="#" class="pricing__button pricing__button--filled">Get Started</a>
+      </div>
+  
+      <!-- Enterprise Plan -->
+      <div class="pricing__card">
+        <div class="pricing__card-header">
+          <h3 class="pricing__plan-name">Enterprise</h3>
+          <div class="pricing__price">
+            <span class="pricing__amount">Custom</span>
+          </div>
+        </div>
+        <ul class="pricing__features">
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Unlimited members
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Custom features
+          </li>
+          <li class="pricing__feature">
+            <svg class="pricing__check" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="#E67E22" d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41L9 16.17z"/>
+            </svg>
+            Dedicated support
+          </li>
+        </ul>
+        <a href="#" class="pricing__button pricing__button--outline">Contact Sales</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2 class="faq__title">Frequently Asked Questions</h2>
+    
+    <div class="faq__container">
+      <!-- First FAQ Item -->
+      <details class="faq__item">
+        <summary class="faq__question">
+          How does the biometric access work?
+        </summary>
+        <div class="faq__answer">
+          Our system supports both fingerprint and facial recognition for secure member check-ins. The setup is quick and seamless.
+        </div>
+      </details>
+  
+      <!-- Second FAQ Item -->
+      <details class="faq__item">
+        <summary class="faq__question">
+          Can I integrate with my existing systems?
+        </summary>
+        <div class="faq__answer">
+          Yes, GymFlow 254 offers API integration capabilities to connect with your existing management tools.
+        </div>
+      </details>
+  
+      <!-- Third FAQ Item -->
+      <details class="faq__item">
+        <summary class="faq__question">
+          Is there a free trial available?
+        </summary>
+        <div class="faq__answer">
+          Yes, we offer a 14-day free trial for all our plans with full access to features.
+        </div>
+      </details>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <div class="footer__container">
+      <!-- Brand Column -->
+      <div class="footer__column">
+        <img src="./assets/Logos/Gymflow254-logo.png" alt="GymFlow 254 Logo" class="footer__logo" />
+        <p class="footer__description">
+          Empowering gym owners and members across Kenya with smart management solutions.
+        </p>
+      </div>
+  
+      <!-- Quick Links Column -->
+      <div class="footer__column">
+        <h3 class="footer__title">Quick Links</h3>
+        <nav class="footer__nav">
+          <a href="#about" class="footer__link">About Us</a>
+          <a href="#features" class="footer__link">Features</a>
+          <a href="#pricing" class="footer__link">Pricing</a>
+          <a href="#contact" class="footer__link">Contact</a>
+        </nav>
+      </div>
+  
+      <!-- Legal Column -->
+      <div class="footer__column">
+        <h3 class="footer__title">Legal</h3>
+        <nav class="footer__nav">
+          <a href="#privacy" class="footer__link">Privacy Policy</a>
+          <a href="#terms" class="footer__link">Terms of Service</a>
+          <a href="#cookies" class="footer__link">Cookie Policy</a>
+        </nav>
+      </div>
+  
+      <!-- Social Links Column -->
+      <div class="footer__column">
+        <h3 class="footer__title">Connect With Us</h3>
+        <div class="footer__social">
+          <a href="#facebook" class="footer__social-link" aria-label="Facebook">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.77 7.46H14.5v-1.9c0-.9.6-1.1 1-1.1h3V.5h-4.33C10.24.5 9.5 3.44 9.5 5.32v2.15h-3v4h3v12h5v-12h3.85l.42-4z"/>
+            </svg>
+          </a>
+          <a href="#twitter" class="footer__social-link" aria-label="Twitter">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M23.44 4.83c-.8.37-1.5.38-2.22.02.93-.56.98-.96 1.32-2.02-.88.52-1.86.9-2.9 1.1-.82-.88-2-1.43-3.3-1.43-2.5 0-4.55 2.04-4.55 4.54 0 .36.03.7.1 1.04-3.77-.2-7.12-2-9.36-4.75-.4.67-.6 1.45-.6 2.3 0 1.56.8 2.95 2 3.77-.74-.03-1.44-.23-2.05-.57v.06c0 2.2 1.56 4.03 3.64 4.44-.67.2-1.37.2-2.06.08.58 1.8 2.26 3.12 4.25 3.16C5.78 18.1 3.37 18.74 1 18.46c2 1.3 4.4 2.04 6.97 2.04 8.35 0 12.92-6.92 12.92-12.93 0-.2 0-.4-.02-.6.9-.63 1.96-1.22 2.56-2.14z"/>
+            </svg>
+          </a>
+          <a href="#instagram" class="footer__social-link" aria-label="Instagram">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <a href="#linkedin" class="footer__social-link" aria-label="LinkedIn">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="footer__bottom">
+      <p class="footer__copyright">© 2025 GymFlow 254. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <script src="scripts.js"></script>
+</body>
+</html>
